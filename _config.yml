@@ -1,1 +1,36 @@
+# Site settings
+title: Steven Terry - Resume
+description: This is Test the resume of Steven Terry.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kemmo47.github.io/CV-Page/" # the base hostname & protocol for your site
+
+# Theme settings
 theme: minima
+
+# Author settings
+author:
+  name: Hồ Ngọc Bảo Long
+  email: longkem123456@gmail.com
+
+# Social media settings
+social:
+  github: kemmo47
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
